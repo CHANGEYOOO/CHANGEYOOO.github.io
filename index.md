@@ -1,10 +1,12 @@
-![Image](http://r63h88db4.hn-bkt.clouddn.com/image_001_0000.png)
+![Image](http://r63h88db4.hn-bkt.clouddn.com/shader%E6%B8%B2%E6%9F%93%E5%9B%BE/jiachong.png)
+
+
 
 ## **本页面作为个人练习记录所用**
 ### *Welcome!*
 #### Unity Shader 渲染图
 
-![Image](http://r63h88db4.hn-bkt.clouddn.com/shader%E6%B8%B2%E6%9F%93%E5%9B%BE/jiachong.png)
+![Image](http://r63h88db4.hn-bkt.clouddn.com/image_001_0000.png)
 
 ![Image](http://r63h88db4.hn-bkt.clouddn.com/shader%E6%B8%B2%E6%9F%93%E5%9B%BE/dao-1.png)
 
