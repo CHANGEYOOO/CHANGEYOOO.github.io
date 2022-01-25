@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://changeyooo.github.io</id>
     <title>Change&apos;s blog</title>
-    <updated>2022-01-25T13:23:22.312Z</updated>
+    <updated>2022-01-25T13:38:59.521Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://changeyooo.github.io"/>
     <link rel="self" href="https://changeyooo.github.io/atom.xml"/>
@@ -10,6 +10,64 @@
     <logo>https://changeyooo.github.io/images/avatar.png</logo>
     <icon>https://changeyooo.github.io/favicon.ico</icon>
     <rights>All rights reserved 2022, Change&apos;s blog</rights>
+    <entry>
+        <title type="html"><![CDATA[表面着色器的组织结构]]></title>
+        <id>https://changeyooo.github.io/post/biao-mian-zhao-se-qi-de-zu-zhi-jie-gou/</id>
+        <link href="https://changeyooo.github.io/post/biao-mian-zhao-se-qi-de-zu-zhi-jie-gou/">
+        </link>
+        <updated>2022-01-25T13:24:53.000Z</updated>
+        <content type="html"><![CDATA[<h2 id="表面着色器编译指令语法结构">表面着色器编译指令语法结构</h2>
+<p><em>#pragma surface surfaceFunction lightModel [optionalparams]</em></p>
+<ol>
+<li><strong>surface</strong> ：声明所使用的shader是表面着色器</li>
+<li><strong>surfaceFunction</strong> : 声明表面着色器的函数名称，被称为表面函数，一般使用surf作为表面函数的名称</li>
+<li><strong>lightModel</strong> ：声明所使用的光照模型</li>
+<li><strong>[optionalparams]</strong> ：其他的可选参数</li>
+</ol>
+<h2 id="表面函数的语法结构">表面函数的语法结构</h2>
+<p><em>void surf ( Input IN , inout surfaceOutput o )<br>
+{<br>
+//表面函数代码<br>
+}</em></p>
+<p>表面函数是一个无返回值的函数，输入参数是预先定义好的 Input 结构体，关键词 in 可以省略。inout 是 in 和 out 的连写，表示既是输入又是输出参数，因此表面结构体 SurfaceOutput 既是表面函数的输入结构体，又是表面函数的输出结构体</p>
+<h2 id="表面函数输出结构体">表面函数输出结构体</h2>
+<p><em>struct SurfaceOutput<br>
+{<br>
+fixed3 Albedo;        //漫反射<br>
+fixed3 Normal;       //切线空间法线<br>
+fixed3 Emission;    //自发光<br>
+half Specular;        //镜面反射指数，范围0-1<br>
+fixed Gloss;           //镜面反射强度<br>
+fixed Alpha;          //透明通道<br>
+};</em></p>
+<p>在Unity5以及之后的版本中新增了基于物理属性的光照模型，物理模型分为两种类型：<br>
+Standard 光照模型：适用于金属工作流，使用 SurfaceOutputStandard 表面结构体<br>
+StandardSpecular 光照模型：适用于高光工作流，使用 SurfaceOutputStandardSpecular 表面结构体<br>
+这两种结构体在 UnityPBSLighting.cginc 包含文件中被定义，结构体中包含的表面属性如下：</p>
+<p><em>//金属工作流输出结构体<br>
+struct SurfaceOutputStandard<br>
+{<br>
+fixed3 Albedo;        //基础颜色<br>
+fixed3 Normal;       //切线空间法线<br>
+fixed3 Emission;    //自发光<br>
+half Metallic;         //0表示非金属，1表示金属<br>
+half Smoothness; //0表示非常粗糙，1表示非常光滑<br>
+half Occlusion;        //环境光遮蔽，默认为1<br>
+fixed Alpha;          //透明通道<br>
+};</em></p>
+<p><em>//高光工作流输出结构体<br>
+struct SurfaceOutputSurfaceOutputStandard<br>
+{<br>
+fixed3 Albedo;        //基础颜色<br>
+half Specular;        //镜面反射颜色<br>
+fixed3 Normal;       //切线空间法线<br>
+fixed3 Emission;    //自发光<br>
+half Smoothness; //0表示非常粗糙，1表示非常光滑<br>
+half Occlusion;        //环境光遮蔽，默认为1<br>
+fixed Alpha;          //透明通道<br>
+};</em></p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[再见六月]]></title>
         <id>https://changeyooo.github.io/post/zai-jian-liu-yue/</id>
