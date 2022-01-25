@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://changeyooo.github.io</id>
     <title>Change&apos;s blog</title>
-    <updated>2022-01-25T13:15:18.926Z</updated>
+    <updated>2022-01-25T13:18:44.945Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://changeyooo.github.io"/>
     <link rel="self" href="https://changeyooo.github.io/atom.xml"/>
@@ -16,7 +16,11 @@
         <link href="https://changeyooo.github.io/post/zai-jian-liu-yue/">
         </link>
         <updated>2022-01-25T13:07:11.000Z</updated>
-        <content type="html"><![CDATA[<p>天很阴，下着小雨，淅淅沥沥。</p>
+        <summary type="html"><![CDATA[<p><em>过往那些遗憾才是最美好的</em></p>
+]]></summary>
+        <content type="html"><![CDATA[<p><em>过往那些遗憾才是最美好的</em></p>
+<!-- more -->
+<p>天很阴，下着小雨，淅淅沥沥。</p>
 <p>我收拾着书包，把一张张试卷叠在一起，揉成一团，塞进满当当的垃圾桶，我打开书包看了眼里面的课本，想着以后也用不着它们了，便把书包翻了过来，成摞的课本掉落在了垃圾桶旁。</p>
 <p>下课铃最后一次为我响起，我背着空空的书包，打着伞，从口袋里掏出手机。</p>
 <p>“陈，你在哪？她让你去学校附近的破楼里找她。”宁的同桌给我发来消息。</p>
