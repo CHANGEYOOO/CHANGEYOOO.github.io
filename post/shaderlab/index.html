@@ -2,27 +2,19 @@
   <head>
     <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>关于 | Change&#39;s blog</title>
+<title>ShaderLab | Change&#39;s blog</title>
 <link rel="shortcut icon" href="https://changeyooo.github.io/favicon.ico?v=1643125076314">
 <link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
 <link rel="stylesheet" href="https://changeyooo.github.io/styles/main.css">
-<link rel="alternate" type="application/atom+xml" title="关于 | Change&#39;s blog - Atom Feed" href="https://changeyooo.github.io/atom.xml">
+<link rel="alternate" type="application/atom+xml" title="ShaderLab | Change&#39;s blog - Atom Feed" href="https://changeyooo.github.io/atom.xml">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
 
 
 
-    <meta name="description" content="
-欢迎来到我的小站呀，很高兴遇见你！🤝
+    <meta name="description" content="Properties 属性语法
+_Name (&quot;Display Name&quot;, type) = defaultValue [{options} ]
 
-🏠 关于本站
-这是我个人的一个博客，主要用于记录平时的小练习以及发表小作文
-👨‍💻 博主是谁
- 
-Change陈智宇
-目前就读于
-北京电影学院现代创意媒体学院
-大三 美术系 特效专业
-⛹ 兴..." />
+_Name： 属性的名字。（为了方便获取,通常在名字的最前加一个下画线,..." />
     <meta name="keywords" content="" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
     <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
@@ -85,49 +77,58 @@ Change陈智宇
         <div class="post-detail">
           <article class="post">
             <h2 class="post-title">
-              关于
+              ShaderLab
             </h2>
             <div class="post-info">
               <span>
-                2019-01-25
+                2022-01-25
               </span>
               <span>
-                1 min read
+                2 min read
               </span>
               
             </div>
             
+              <img class="post-feature-image" src="http://r63h88db4.hn-bkt.clouddn.com/qita/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20220125230916.jpg" alt="">
+            
             <div class="post-content-wrapper">
               <div class="post-content">
-                <blockquote>
-<p>欢迎来到我的小站呀，很高兴遇见你！🤝</p>
-</blockquote>
-<h2 id="关于本站">🏠 关于本站</h2>
-<p>这是我个人的一个博客，主要用于记录平时的小练习以及发表小作文</p>
-<h2 id="博主是谁">👨‍💻 博主是谁</h2>
- <img src="http://r63h88db4.hn-bkt.clouddn.com/qita/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20220125231134.jpg" align='right'  style="zoom: 10%;" />
-<p>Change陈智宇<br>
-目前就读于<br>
-北京电影学院现代创意媒体学院<br>
-大三 美术系 特效专业</p>
-<h2 id="兴趣爱好">⛹ 兴趣爱好</h2>
-<p>摄影|写作|看电影</p>
-<h2 id="联系我呀">📬 联系我呀</h2>
-<p>即刻：ChangeU<br>
-http://m.okjike.com/users/4A775023-2CE8-41F4-B64C-545061CEB960?ref=PROFILE_CARD&amp;utm_source=user_card</p>
-<p>vx：CHEN863446726</p>
+                <h1 id="properties-属性语法">Properties 属性语法</h1>
+<p><em>_Name (&quot;Display Name&quot;, type) = defaultValue [{options} ]</em></p>
+<ul>
+<li><strong>_Name</strong>： 属性的名字。（为了方便获取,通常在名字的最前加一个下画线,后续在整个Shader 中都将使用这个名称来获取该属性。）</li>
+<li><strong>Display Name</strong>：在材质面板中显示出来的名称。<br>
+type：属性的类型</li>
+<li><strong>defaultValue</strong>：将 Shader 指定给材质的时候初始化的默认值。</li>
+</ul>
+<h1 id="数值类属性">数值类属性</h1>
+<p><em>name (&quot;display name&quot;, Float) = number</em></p>
+<p><em>name (&quot;display name&quot;, Range (min, max)) = number</em></p>
+<ul>
+<li><strong>Float</strong> 是任意数值的浮点型数据，在材质面板上作为数宇输人框显示。</li>
+<li><strong>Range</strong> 是一个介于最大值和最小值之间的浮点型数据，在材质面板作为滑动条显示。</li>
+</ul>
+<h1 id="颜色和向量类属性">颜色和向量类属性</h1>
+<p><em>name (&quot;display name&quot;, Color) = (number, number, number, number)</em></p>
+<p><em>name (&quot;display name&quot;, Vector) = (number1, number2, number 3, number4)</em></p>
+<ul>
+<li><strong>Color</strong> 是颜色类型的数据，由RGBA四个分量定义，面板上会显示取色器</li>
+<li><strong>Vector</strong> 是向量类型属性，是四维数字，面板上会显示 X,Y,Z,W</li>
+</ul>
+<p><em>name (&quot;display name&quot;, 2D) = &quot;defaulttexture&quot;{}</em></p>
+<p><em>name (&quot;display name&quot;Cube) = &quot;defaulttexture&quot; {}</em></p>
+<p><em>name (&quot;display name&quot;, 3D) = &quot;defaulttexture&quot;{}</em></p>
+<ul>
+<li><strong>2D</strong> 属性是纹理属性中最常使用的，漫反射贴图，法线贴图等都属于2D类型</li>
+<li><strong>Cube</strong>（立方体纹理），是由前后左右上下6张有联系的2D贴图拼成的立方体，主要用作反射，例如SkyBox和Reflection Prob</li>
+</ul>
 
               </div>
               <div class="toc-container">
                 <ul class="markdownIt-TOC">
-<li>
-<ul>
-<li><a href="#%E5%85%B3%E4%BA%8E%E6%9C%AC%E7%AB%99">🏠 关于本站</a></li>
-<li><a href="#%E5%8D%9A%E4%B8%BB%E6%98%AF%E8%B0%81">👨‍💻 博主是谁</a></li>
-<li><a href="#%E5%85%B4%E8%B6%A3%E7%88%B1%E5%A5%BD">⛹ 兴趣爱好</a></li>
-<li><a href="#%E8%81%94%E7%B3%BB%E6%88%91%E5%91%80">📬 联系我呀</a></li>
-</ul>
-</li>
+<li><a href="#properties-%E5%B1%9E%E6%80%A7%E8%AF%AD%E6%B3%95">Properties 属性语法</a></li>
+<li><a href="#%E6%95%B0%E5%80%BC%E7%B1%BB%E5%B1%9E%E6%80%A7">数值类属性</a></li>
+<li><a href="#%E9%A2%9C%E8%89%B2%E5%92%8C%E5%90%91%E9%87%8F%E7%B1%BB%E5%B1%9E%E6%80%A7">颜色和向量类属性</a></li>
 </ul>
 
               </div>
@@ -135,6 +136,15 @@ http://m.okjike.com/users/4A775023-2CE8-41F4-B64C-545061CEB960?ref=PROFILE_CARD&
           </article>
         </div>
 
+        
+          <div class="next-post">
+            <div class="next">下一篇</div>
+            <a href="https://changeyooo.github.io/post/shader-jie-gou/">
+              <h3 class="post-title">
+                Shader结构
+              </h3>
+            </a>
+          </div>
         
 
         

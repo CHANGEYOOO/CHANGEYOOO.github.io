@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://changeyooo.github.io</id>
     <title>Change&apos;s blog</title>
-    <updated>2022-01-25T15:25:25.640Z</updated>
+    <updated>2022-01-25T15:37:58.718Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://changeyooo.github.io"/>
     <link rel="self" href="https://changeyooo.github.io/atom.xml"/>
@@ -10,6 +10,61 @@
     <logo>https://changeyooo.github.io/images/avatar.png</logo>
     <icon>https://changeyooo.github.io/favicon.ico</icon>
     <rights>All rights reserved 2022, Change&apos;s blog</rights>
+    <entry>
+        <title type="html"><![CDATA[ShaderLab]]></title>
+        <id>https://changeyooo.github.io/post/shaderlab/</id>
+        <link href="https://changeyooo.github.io/post/shaderlab/">
+        </link>
+        <updated>2022-01-25T15:34:28.000Z</updated>
+        <content type="html"><![CDATA[<h1 id="properties-属性语法">Properties 属性语法</h1>
+<p><em>_Name (&quot;Display Name&quot;, type) = defaultValue [{options} ]</em></p>
+<ul>
+<li><strong>_Name</strong>： 属性的名字。（为了方便获取,通常在名字的最前加一个下画线,后续在整个Shader 中都将使用这个名称来获取该属性。）</li>
+<li><strong>Display Name</strong>：在材质面板中显示出来的名称。<br>
+type：属性的类型</li>
+<li><strong>defaultValue</strong>：将 Shader 指定给材质的时候初始化的默认值。</li>
+</ul>
+<h1 id="数值类属性">数值类属性</h1>
+<p><em>name (&quot;display name&quot;, Float) = number</em></p>
+<p><em>name (&quot;display name&quot;, Range (min, max)) = number</em></p>
+<ul>
+<li><strong>Float</strong> 是任意数值的浮点型数据，在材质面板上作为数宇输人框显示。</li>
+<li><strong>Range</strong> 是一个介于最大值和最小值之间的浮点型数据，在材质面板作为滑动条显示。</li>
+</ul>
+<h1 id="颜色和向量类属性">颜色和向量类属性</h1>
+<p><em>name (&quot;display name&quot;, Color) = (number, number, number, number)</em></p>
+<p><em>name (&quot;display name&quot;, Vector) = (number1, number2, number 3, number4)</em></p>
+<ul>
+<li><strong>Color</strong> 是颜色类型的数据，由RGBA四个分量定义，面板上会显示取色器</li>
+<li><strong>Vector</strong> 是向量类型属性，是四维数字，面板上会显示 X,Y,Z,W</li>
+</ul>
+<p><em>name (&quot;display name&quot;, 2D) = &quot;defaulttexture&quot;{}</em></p>
+<p><em>name (&quot;display name&quot;Cube) = &quot;defaulttexture&quot; {}</em></p>
+<p><em>name (&quot;display name&quot;, 3D) = &quot;defaulttexture&quot;{}</em></p>
+<ul>
+<li><strong>2D</strong> 属性是纹理属性中最常使用的，漫反射贴图，法线贴图等都属于2D类型</li>
+<li><strong>Cube</strong>（立方体纹理），是由前后左右上下6张有联系的2D贴图拼成的立方体，主要用作反射，例如SkyBox和Reflection Prob</li>
+</ul>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Shader结构]]></title>
+        <id>https://changeyooo.github.io/post/shader-jie-gou/</id>
+        <link href="https://changeyooo.github.io/post/shader-jie-gou/">
+        </link>
+        <updated>2022-01-25T15:31:24.000Z</updated>
+        <content type="html"><![CDATA[<h1 id="shader">Shader</h1>
+<h2 id="properties-属性">Properties (属性）</h2>
+<h2 id="subshader-1子着色器1">SubShader-1（子着色器1）</h2>
+<ul>
+<li>Tags(标签）</li>
+<li>States(状态）</li>
+<li>Pass-1</li>
+<li>Pass-2</li>
+</ul>
+<h2 id="subshader-2子着色器2">SubShader-2（子着色器2）</h2>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[表面着色器的组织结构]]></title>
         <id>https://changeyooo.github.io/post/biao-mian-zhao-se-qi-de-zu-zhi-jie-gou/</id>

@@ -2,27 +2,26 @@
   <head>
     <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>关于 | Change&#39;s blog</title>
+<title>Shader结构 | Change&#39;s blog</title>
 <link rel="shortcut icon" href="https://changeyooo.github.io/favicon.ico?v=1643125076314">
 <link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
 <link rel="stylesheet" href="https://changeyooo.github.io/styles/main.css">
-<link rel="alternate" type="application/atom+xml" title="关于 | Change&#39;s blog - Atom Feed" href="https://changeyooo.github.io/atom.xml">
+<link rel="alternate" type="application/atom+xml" title="Shader结构 | Change&#39;s blog - Atom Feed" href="https://changeyooo.github.io/atom.xml">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
 
 
 
-    <meta name="description" content="
-欢迎来到我的小站呀，很高兴遇见你！🤝
+    <meta name="description" content="Shader
+Properties (属性）
+SubShader-1（子着色器1）
 
-🏠 关于本站
-这是我个人的一个博客，主要用于记录平时的小练习以及发表小作文
-👨‍💻 博主是谁
- 
-Change陈智宇
-目前就读于
-北京电影学院现代创意媒体学院
-大三 美术系 特效专业
-⛹ 兴..." />
+Tags(标签）
+States(状态）
+Pass-1
+Pass-2
+
+SubShader-2（子着色器2）
+..." />
     <meta name="keywords" content="" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
     <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
@@ -85,11 +84,11 @@ Change陈智宇
         <div class="post-detail">
           <article class="post">
             <h2 class="post-title">
-              关于
+              Shader结构
             </h2>
             <div class="post-info">
               <span>
-                2019-01-25
+                2022-01-25
               </span>
               <span>
                 1 min read
@@ -97,35 +96,29 @@ Change陈智宇
               
             </div>
             
+              <img class="post-feature-image" src="http://r63h88db4.hn-bkt.clouddn.com/qita/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20220125230916.jpg" alt="">
+            
             <div class="post-content-wrapper">
               <div class="post-content">
-                <blockquote>
-<p>欢迎来到我的小站呀，很高兴遇见你！🤝</p>
-</blockquote>
-<h2 id="关于本站">🏠 关于本站</h2>
-<p>这是我个人的一个博客，主要用于记录平时的小练习以及发表小作文</p>
-<h2 id="博主是谁">👨‍💻 博主是谁</h2>
- <img src="http://r63h88db4.hn-bkt.clouddn.com/qita/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20220125231134.jpg" align='right'  style="zoom: 10%;" />
-<p>Change陈智宇<br>
-目前就读于<br>
-北京电影学院现代创意媒体学院<br>
-大三 美术系 特效专业</p>
-<h2 id="兴趣爱好">⛹ 兴趣爱好</h2>
-<p>摄影|写作|看电影</p>
-<h2 id="联系我呀">📬 联系我呀</h2>
-<p>即刻：ChangeU<br>
-http://m.okjike.com/users/4A775023-2CE8-41F4-B64C-545061CEB960?ref=PROFILE_CARD&amp;utm_source=user_card</p>
-<p>vx：CHEN863446726</p>
+                <h1 id="shader">Shader</h1>
+<h2 id="properties-属性">Properties (属性）</h2>
+<h2 id="subshader-1子着色器1">SubShader-1（子着色器1）</h2>
+<ul>
+<li>Tags(标签）</li>
+<li>States(状态）</li>
+<li>Pass-1</li>
+<li>Pass-2</li>
+</ul>
+<h2 id="subshader-2子着色器2">SubShader-2（子着色器2）</h2>
 
               </div>
               <div class="toc-container">
                 <ul class="markdownIt-TOC">
-<li>
+<li><a href="#shader">Shader</a>
 <ul>
-<li><a href="#%E5%85%B3%E4%BA%8E%E6%9C%AC%E7%AB%99">🏠 关于本站</a></li>
-<li><a href="#%E5%8D%9A%E4%B8%BB%E6%98%AF%E8%B0%81">👨‍💻 博主是谁</a></li>
-<li><a href="#%E5%85%B4%E8%B6%A3%E7%88%B1%E5%A5%BD">⛹ 兴趣爱好</a></li>
-<li><a href="#%E8%81%94%E7%B3%BB%E6%88%91%E5%91%80">📬 联系我呀</a></li>
+<li><a href="#properties-%E5%B1%9E%E6%80%A7">Properties (属性）</a></li>
+<li><a href="#subshader-1%E5%AD%90%E7%9D%80%E8%89%B2%E5%99%A81">SubShader-1（子着色器1）</a></li>
+<li><a href="#subshader-2%E5%AD%90%E7%9D%80%E8%89%B2%E5%99%A82">SubShader-2（子着色器2）</a></li>
 </ul>
 </li>
 </ul>
@@ -135,6 +128,15 @@ http://m.okjike.com/users/4A775023-2CE8-41F4-B64C-545061CEB960?ref=PROFILE_CARD&
           </article>
         </div>
 
+        
+          <div class="next-post">
+            <div class="next">下一篇</div>
+            <a href="https://changeyooo.github.io/post/biao-mian-zhao-se-qi-de-zu-zhi-jie-gou/">
+              <h3 class="post-title">
+                表面着色器的组织结构
+              </h3>
+            </a>
+          </div>
         
 
         
