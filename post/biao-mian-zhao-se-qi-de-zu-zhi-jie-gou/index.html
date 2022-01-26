@@ -17,14 +17,16 @@
   <meta name="description" content="表面着色器编译指令语法结构
 #pragma surface surfaceFunction lightModel [optionalparams]
 
+
 surface ：声明所使用的shader是表面着色器
-surfaceFunction :..." />
+surfaceFunction ..." />
   <meta property="og:title" content="表面着色器的组织结构 - Change&#39;s blog">
   <meta property="og:description" content="表面着色器编译指令语法结构
 #pragma surface surfaceFunction lightModel [optionalparams]
 
+
 surface ：声明所使用的shader是表面着色器
-surfaceFunction :..." />
+surfaceFunction ..." />
   <meta property="og:type" content="articles">
   <meta property="og:url" content="https://changeyooo.github.io/post/biao-mian-zhao-se-qi-de-zu-zhi-jie-gou/" />
   <meta property="og:image" content="http://r63h88db4.hn-bkt.clouddn.com/qita/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20220125230916.jpg,change">
@@ -34,8 +36,9 @@ surfaceFunction :..." />
   <meta name="twitter:description" content="表面着色器编译指令语法结构
 #pragma surface surfaceFunction lightModel [optionalparams]
 
+
 surface ：声明所使用的shader是表面着色器
-surfaceFunction :...">
+surfaceFunction ...">
   <meta name="twitter:card" content="summary_large_image">
   <link rel="canonical" href="https://changeyooo.github.io/post/biao-mian-zhao-se-qi-de-zu-zhi-jie-gou/">
 
@@ -73,7 +76,8 @@ surfaceFunction :...">
         </div>
         <div class="markdown mb-8" v-pre>
           <h2 id="表面着色器编译指令语法结构">表面着色器编译指令语法结构</h2>
-<p><em>#pragma surface surfaceFunction lightModel [optionalparams]</em></p>
+<pre><code>#pragma surface surfaceFunction lightModel [optionalparams]
+</code></pre>
 <ol>
 <li><strong>surface</strong> ：声明所使用的shader是表面着色器</li>
 <li><strong>surfaceFunction</strong> : 声明表面着色器的函数名称，被称为表面函数，一般使用surf作为表面函数的名称</li>
@@ -81,47 +85,52 @@ surfaceFunction :...">
 <li><strong>[optionalparams]</strong> ：其他的可选参数</li>
 </ol>
 <h2 id="表面函数的语法结构">表面函数的语法结构</h2>
-<p><em>void surf ( Input IN , inout surfaceOutput o )<br>
-{<br>
-//表面函数代码<br>
-}</em></p>
+<pre><code>void surf ( Input IN , inout surfaceOutput o )
+{
+//表面函数代码
+}
+</code></pre>
 <p>表面函数是一个无返回值的函数，输入参数是预先定义好的 Input 结构体，关键词 in 可以省略。inout 是 in 和 out 的连写，表示既是输入又是输出参数，因此表面结构体 SurfaceOutput 既是表面函数的输入结构体，又是表面函数的输出结构体</p>
 <h2 id="表面函数输出结构体">表面函数输出结构体</h2>
-<p><em>struct SurfaceOutput<br>
-{<br>
-fixed3 Albedo;        //漫反射<br>
-fixed3 Normal;       //切线空间法线<br>
-fixed3 Emission;    //自发光<br>
-half Specular;        //镜面反射指数，范围0-1<br>
-fixed Gloss;           //镜面反射强度<br>
-fixed Alpha;          //透明通道<br>
-};</em></p>
+<pre><code>struct SurfaceOutput
+{
+fixed3 Albedo;        //漫反射
+fixed3 Normal;       //切线空间法线
+fixed3 Emission;    //自发光
+half Specular;        //镜面反射指数，范围0-1
+fixed Gloss;           //镜面反射强度
+fixed Alpha;          //透明通道
+};
+</code></pre>
 <p>在Unity5以及之后的版本中新增了基于物理属性的光照模型，物理模型分为两种类型：<br>
 Standard 光照模型：适用于金属工作流，使用 SurfaceOutputStandard 表面结构体<br>
 StandardSpecular 光照模型：适用于高光工作流，使用 SurfaceOutputStandardSpecular 表面结构体<br>
 这两种结构体在 UnityPBSLighting.cginc 包含文件中被定义，结构体中包含的表面属性如下：</p>
-<p><em>//金属工作流输出结构体<br>
-struct SurfaceOutputStandard<br>
-{<br>
-fixed3 Albedo;        //基础颜色<br>
-fixed3 Normal;       //切线空间法线<br>
-fixed3 Emission;    //自发光<br>
-half Metallic;         //0表示非金属，1表示金属<br>
-half Smoothness; //0表示非常粗糙，1表示非常光滑<br>
-half Occlusion;        //环境光遮蔽，默认为1<br>
-fixed Alpha;          //透明通道<br>
-};</em></p>
-<p><em>//高光工作流输出结构体<br>
-struct SurfaceOutputSurfaceOutputStandard<br>
-{<br>
-fixed3 Albedo;        //基础颜色<br>
-half Specular;        //镜面反射颜色<br>
-fixed3 Normal;       //切线空间法线<br>
-fixed3 Emission;    //自发光<br>
-half Smoothness; //0表示非常粗糙，1表示非常光滑<br>
-half Occlusion;        //环境光遮蔽，默认为1<br>
-fixed Alpha;          //透明通道<br>
-};</em></p>
+<pre><code>//金属工作流输出结构体
+struct SurfaceOutputStandard
+{
+fixed3 Albedo;        //基础颜色
+fixed3 Normal;       //切线空间法线
+fixed3 Emission;    //自发光
+half Metallic;         //0表示非金属，1表示金属
+half Smoothness; //0表示非常粗糙，1表示非常光滑
+half Occlusion;        //环境光遮蔽，默认为1
+fixed Alpha;          //透明通道
+};
+
+
+//高光工作流输出结构体
+struct SurfaceOutputSurfaceOutputStandard 
+{
+fixed3 Albedo;        //基础颜色
+half Specular;        //镜面反射颜色
+fixed3 Normal;       //切线空间法线
+fixed3 Emission;    //自发光
+half Smoothness; //0表示非常粗糙，1表示非常光滑
+half Occlusion;        //环境光遮蔽，默认为1
+fixed Alpha;          //透明通道
+};
+</code></pre>
 
         </div>
         <!-- Share to Twitter, Weibo, Telegram -->
