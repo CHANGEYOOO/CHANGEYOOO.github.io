@@ -1,306 +1,280 @@
-<html>
-  <head>
-    <meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
 <title>Change&#39;s blog</title>
-<link rel="shortcut icon" href="https://changeyooo.github.io/favicon.ico?v=1643129637949">
-<link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
+<link rel="shortcut icon" href="https://changeyooo.github.io/favicon.ico">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.7.2/animate.min.css">
+<link rel="stylesheet" href="https://changeyooo.github.io/media/css/tailwind.css">
 <link rel="stylesheet" href="https://changeyooo.github.io/styles/main.css">
 <link rel="alternate" type="application/atom+xml" title="Change&#39;s blog - Atom Feed" href="https://changeyooo.github.io/atom.xml">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
 
+    
 
+  <meta name="description" content="如果足够勇敢说再见，生活便会奖励你一个新的开始" />
+</head>
+<body>
+  <div class="antialiased flex flex-col min-h-screen" id="app">
 
-    <meta name="description" content="如果足够勇敢说再见，生活便会奖励你一个新的开始" />
-  </head>
-  <body>
-    <div class="main">
-      <div class="main-content">
-        <div class="site-header">
-  <a href="https://changeyooo.github.io">
-  <img class="avatar" src="https://changeyooo.github.io/images/avatar.png?v=1643129637949" alt="">
-  </a>
-  <h1 class="site-title">
-    Change&#39;s blog
-  </h1>
-  <p class="site-description">
-    如果足够勇敢说再见，生活便会奖励你一个新的开始
-  </p>
-  <div class="menu-container">
-    
-      
-        <a href="/" class="menu">
-          首页
-        </a>
-      
-    
-      
-        <a href="/archives" class="menu">
-          归档
-        </a>
-      
-    
-      
-        <a href="/tags" class="menu">
-          标签
-        </a>
-      
-    
-      
-        <a href="/post/about" class="menu">
-          关于
-        </a>
-      
-    
+    <div class="nav py-3 md:py-8 fixed w-full z-10 bg-gray-50 dark:bg-gray-700 transition-all duration-300" :class="{ 'scroll': scrolled }">
+  <div class="flex justify-end px-4">
+    <div class="w-8 h-8 flex justify-center items-center rounded-full md:hidden" @click="showMenu = !showMenu">
+      <i class="ri-close-line" v-show="showMenu"></i>
+      <i class="ri-menu-3-line" v-show="!showMenu"></i>
+    </div>
   </div>
-  <div class="social-container">
+  <nav class="max-w-4xl w-full mx-auto text-center flex flex-col md:flex-row justify-center md:block" :class="`${ showMenu ? 'block' : 'hidden' }`">
     
-      
+      <a href="/" target="" class="py-2 md:py-1 px-4 mx-4 inline-flex transition font-semibold rounded dark:hover:bg-gray-600 hover:bg-gray-200">
+        首页
+      </a>
     
-      
+      <a href="/archives" target="" class="py-2 md:py-1 px-4 mx-4 inline-flex transition font-semibold rounded dark:hover:bg-gray-600 hover:bg-gray-200">
+        归档
+      </a>
     
-      
+      <a href="/tags" target="" class="py-2 md:py-1 px-4 mx-4 inline-flex transition font-semibold rounded dark:hover:bg-gray-600 hover:bg-gray-200">
+        标签
+      </a>
     
-      
+      <a href="/post/about" target="" class="py-2 md:py-1 px-4 mx-4 inline-flex transition font-semibold rounded dark:hover:bg-gray-600 hover:bg-gray-200">
+        关于
+      </a>
     
-      
-    
-  </div>
+    <a href="https://changeyooo.github.io/atom.xml" target="_blank" class="py-2 md:py-1 px-4 mx-4 inline-flex transition font-semibold rounded dark:hover:bg-gray-600 hover:bg-gray-200">
+      RSS
+    </a>
+  </nav>
 </div>
 
+    <div class="max-w-4xl w-full mx-auto ">
+      
+        <header class="flex py-16 md:py-32 mt-12 flex-col md:flex-row px-4 md:px-0 animated fadeIn">
+  <div class="flex-1 order-2 md:order-1 md:pr-16">
+    <div class="text-4xl font-bold text-center md:text-left">
+      Change&#39;s blog
+    </div>
+    <div class="text-xl text-gray-500 mt-4 text-center md:text-left">
+      如果足够勇敢说再见，生活便会奖励你一个新的开始
+    </div>
     
-        <div class="post-container">
-  
-    <article class="post">
-      <a href="https://changeyooo.github.io/post/fang-he-zi/">
-        <h2 class="post-title">方盒子</h2>
-      </a>
-      <div class="post-info">
-        <span>
-          2021-12-21
-        </span>
-        <span>
-          6 min read
-        </span>
-        
-          <a href="https://changeyooo.github.io/tag/r8phx72Du/" class="post-tag">
-            # 往事
-          </a>
-        
-      </div>
+    
+  </div>
+  <div class="md:mx-8 flex-shrink-0 self-start rounded-full border-4 border-dotted border-transparent hover:border-yellow-50 p-2 w-32 h-32 order-1 md:order-2 mx-auto s3-dotted">
+    <img class="rounded-full object-cover" src="https://changeyooo.github.io/images/avatar.png?v=1643162848105" alt="Change&#39;s blog" width="100%" height="100%">
+  </div>
+</header>
       
-        <a href="https://changeyooo.github.io/post/fang-he-zi/" class="post-feature-image" style="background-image: url('https://changeyooo.github.io/post-images/fang-he-zi.jpg')">
+
+      <div class="shadow-box bg-white dark:bg-gray-600 border-gray-300 rounded-none md:rounded-lg -mx-1 md:mx-0 md:px-0">
+        
+  <div class="p-8 border-b border-gray-200 dark:border-gray-700 flex relative overflow-hidden flex-col md:flex-row animated fadeIn">
+    
+      <i class="ri-star-line text-orange-200 absolute text-2xl left-0 ml-1 rotate-90"></i>
+    
+    <div class="flex-1 order-2 md:order-1">
+      <h2 class="text-2xl font-semibold mb-4">
+        <a href="https://changeyooo.github.io/post/fang-he-zi/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
+          方盒子
         </a>
-      
-      <div class="post-abstract">
+      </h2>
+      <div class="mb-4 text-xs text-gray-500">2021-12-21</div>
+      <div class="mb-4 text-gray-500 dark:text-gray-300">
         <p><em>我们在方盒子里生活，最后在方盒子里死去</em></p>
 
       </div>
-    </article>
-  
-    <article class="post">
-      <a href="https://changeyooo.github.io/post/qiu-long-luo-mu-dao-ta-ge-he/">
-        <h2 class="post-title">囚笼 落幕 倒塌 隔阂</h2>
+      <a href="https://changeyooo.github.io/post/fang-he-zi/" class="btn">
+        Read more
       </a>
-      <div class="post-info">
-        <span>
-          2022-01-26
-        </span>
-        <span>
-          1 min read
-        </span>
-        
-          <a href="https://changeyooo.github.io/tag/JogNGZqD3/" class="post-tag">
-            # 摄影
-          </a>
-        
-      </div>
-      
-        <a href="https://changeyooo.github.io/post/qiu-long-luo-mu-dao-ta-ge-he/" class="post-feature-image" style="background-image: url('http://r63h88db4.hn-bkt.clouddn.com/%E6%91%84%E5%BD%B1/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20220126003441.jpg,change')">
+    </div>
+    
+      <img class="flex-shrink-0 self-start md:ml-4 mb-4 md:mb-0 rounded-sm object-cover featured-img order-1 md:order-2 w-full h-40 md:w-56 md:h-32" loading="lazy" src="https://changeyooo.github.io/post-images/fang-he-zi.jpg" alt="方盒子">
+    
+  </div>
+
+  <div class="p-8 border-b border-gray-200 dark:border-gray-700 flex relative overflow-hidden flex-col md:flex-row animated fadeIn">
+    
+    <div class="flex-1 order-2 md:order-1">
+      <h2 class="text-2xl font-semibold mb-4">
+        <a href="https://changeyooo.github.io/post/qiu-long-luo-mu-dao-ta-ge-he/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
+          囚笼 落幕 倒塌 隔阂
         </a>
-      
-      <div class="post-abstract">
+      </h2>
+      <div class="mb-4 text-xs text-gray-500">2022-01-26</div>
+      <div class="mb-4 text-gray-500 dark:text-gray-300">
         <p>📸 富士XT20_35 f2<br>
 🚩 杭州市 钱塘江</p>
 
       </div>
-    </article>
-  
-    <article class="post">
-      <a href="https://changeyooo.github.io/post/yu-yi/">
-        <h2 class="post-title">语义</h2>
+      <a href="https://changeyooo.github.io/post/qiu-long-luo-mu-dao-ta-ge-he/" class="btn">
+        Read more
       </a>
-      <div class="post-info">
-        <span>
-          2022-01-26
-        </span>
-        <span>
-          1 min read
-        </span>
-        
-          <a href="https://changeyooo.github.io/tag/D_B-et66R/" class="post-tag">
-            # Unity Shader
-          </a>
-        
-      </div>
-      
-        <a href="https://changeyooo.github.io/post/yu-yi/" class="post-feature-image" style="background-image: url('http://r63h88db4.hn-bkt.clouddn.com/qita/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20220125230916.jpg,change')">
+    </div>
+    
+      <img class="flex-shrink-0 self-start md:ml-4 mb-4 md:mb-0 rounded-sm object-cover featured-img order-1 md:order-2 w-full h-40 md:w-56 md:h-32" loading="lazy" src="http://r63h88db4.hn-bkt.clouddn.com/%E6%91%84%E5%BD%B1/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20220126003441.jpg,change" alt="囚笼 落幕 倒塌 隔阂">
+    
+  </div>
+
+  <div class="p-8 border-b border-gray-200 dark:border-gray-700 flex relative overflow-hidden flex-col md:flex-row animated fadeIn">
+    
+    <div class="flex-1 order-2 md:order-1">
+      <h2 class="text-2xl font-semibold mb-4">
+        <a href="https://changeyooo.github.io/post/yu-yi/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
+          语义
         </a>
-      
-      <div class="post-abstract">
-        
+      </h2>
+      <div class="mb-4 text-xs text-gray-500">2022-01-26</div>
+      <div class="mb-4 text-gray-500 dark:text-gray-300">
+        POSITION  顶点的坐标信息，通常为float3或 float4 类型
+NORMAL  顶点的法线信息，通常为 float3 类型
+TEXCOORD0  模型的第一套UV坐标，通常为1loat2、1loat3 或 float4 类型,...
       </div>
-    </article>
-  
-    <article class="post">
-      <a href="https://changeyooo.github.io/post/shaderlab/">
-        <h2 class="post-title">ShaderLab</h2>
+      <a href="https://changeyooo.github.io/post/yu-yi/" class="btn">
+        Read more
       </a>
-      <div class="post-info">
-        <span>
-          2022-01-25
-        </span>
-        <span>
-          2 min read
-        </span>
-        
-          <a href="https://changeyooo.github.io/tag/D_B-et66R/" class="post-tag">
-            # Unity Shader
-          </a>
-        
-      </div>
-      
-        <a href="https://changeyooo.github.io/post/shaderlab/" class="post-feature-image" style="background-image: url('http://r63h88db4.hn-bkt.clouddn.com/qita/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20220125230916.jpg,change')">
+    </div>
+    
+      <img class="flex-shrink-0 self-start md:ml-4 mb-4 md:mb-0 rounded-sm object-cover featured-img order-1 md:order-2 w-full h-40 md:w-56 md:h-32" loading="lazy" src="http://r63h88db4.hn-bkt.clouddn.com/qita/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20220125230916.jpg,change" alt="语义">
+    
+  </div>
+
+  <div class="p-8 border-b border-gray-200 dark:border-gray-700 flex relative overflow-hidden flex-col md:flex-row animated fadeIn">
+    
+    <div class="flex-1 order-2 md:order-1">
+      <h2 class="text-2xl font-semibold mb-4">
+        <a href="https://changeyooo.github.io/post/shaderlab/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
+          ShaderLab
         </a>
-      
-      <div class="post-abstract">
-        
+      </h2>
+      <div class="mb-4 text-xs text-gray-500">2022-01-25</div>
+      <div class="mb-4 text-gray-500 dark:text-gray-300">
+        Properties 属性语法
+_Name (&quot;Display Name&quot;, type) = defaultValue [{options} ]
+
+_Name： 属性的名字。（为了方便获取,通常在名字的最前加一个下画线,...
       </div>
-    </article>
-  
-    <article class="post">
-      <a href="https://changeyooo.github.io/post/shader-jie-gou/">
-        <h2 class="post-title">Shader结构</h2>
+      <a href="https://changeyooo.github.io/post/shaderlab/" class="btn">
+        Read more
       </a>
-      <div class="post-info">
-        <span>
-          2022-01-25
-        </span>
-        <span>
-          1 min read
-        </span>
-        
-          <a href="https://changeyooo.github.io/tag/D_B-et66R/" class="post-tag">
-            # Unity Shader
-          </a>
-        
-      </div>
-      
-        <a href="https://changeyooo.github.io/post/shader-jie-gou/" class="post-feature-image" style="background-image: url('http://r63h88db4.hn-bkt.clouddn.com/qita/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20220125230916.jpg,change')">
+    </div>
+    
+      <img class="flex-shrink-0 self-start md:ml-4 mb-4 md:mb-0 rounded-sm object-cover featured-img order-1 md:order-2 w-full h-40 md:w-56 md:h-32" loading="lazy" src="http://r63h88db4.hn-bkt.clouddn.com/qita/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20220125230916.jpg,change" alt="ShaderLab">
+    
+  </div>
+
+  <div class="p-8 border-b border-gray-200 dark:border-gray-700 flex relative overflow-hidden flex-col md:flex-row animated fadeIn">
+    
+    <div class="flex-1 order-2 md:order-1">
+      <h2 class="text-2xl font-semibold mb-4">
+        <a href="https://changeyooo.github.io/post/shader-jie-gou/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
+          Shader结构
         </a>
-      
-      <div class="post-abstract">
-        
+      </h2>
+      <div class="mb-4 text-xs text-gray-500">2022-01-25</div>
+      <div class="mb-4 text-gray-500 dark:text-gray-300">
+        Shader
+Properties (属性）
+SubShader-1（子着色器1）
+
+Tags(标签）
+States(状态）
+Pass-1
+Pass-2
+
+SubShader-2（子着色器2）
+...
       </div>
-    </article>
-  
-    <article class="post">
-      <a href="https://changeyooo.github.io/post/biao-mian-zhao-se-qi-de-zu-zhi-jie-gou/">
-        <h2 class="post-title">表面着色器的组织结构</h2>
+      <a href="https://changeyooo.github.io/post/shader-jie-gou/" class="btn">
+        Read more
       </a>
-      <div class="post-info">
-        <span>
-          2022-01-25
-        </span>
-        <span>
-          2 min read
-        </span>
-        
-          <a href="https://changeyooo.github.io/tag/D_B-et66R/" class="post-tag">
-            # Unity Shader
-          </a>
-        
-      </div>
-      
-        <a href="https://changeyooo.github.io/post/biao-mian-zhao-se-qi-de-zu-zhi-jie-gou/" class="post-feature-image" style="background-image: url('http://r63h88db4.hn-bkt.clouddn.com/qita/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20220125230916.jpg,change')">
+    </div>
+    
+      <img class="flex-shrink-0 self-start md:ml-4 mb-4 md:mb-0 rounded-sm object-cover featured-img order-1 md:order-2 w-full h-40 md:w-56 md:h-32" loading="lazy" src="http://r63h88db4.hn-bkt.clouddn.com/qita/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20220125230916.jpg,change" alt="Shader结构">
+    
+  </div>
+
+  <div class="p-8 border-b border-gray-200 dark:border-gray-700 flex relative overflow-hidden flex-col md:flex-row animated fadeIn">
+    
+    <div class="flex-1 order-2 md:order-1">
+      <h2 class="text-2xl font-semibold mb-4">
+        <a href="https://changeyooo.github.io/post/biao-mian-zhao-se-qi-de-zu-zhi-jie-gou/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
+          表面着色器的组织结构
         </a>
-      
-      <div class="post-abstract">
-        
+      </h2>
+      <div class="mb-4 text-xs text-gray-500">2022-01-25</div>
+      <div class="mb-4 text-gray-500 dark:text-gray-300">
+        表面着色器编译指令语法结构
+#pragma surface surfaceFunction lightModel [optionalparams]
+
+surface ：声明所使用的shader是表面着色器
+surfaceFunction :...
       </div>
-    </article>
-  
-    <article class="post">
-      <a href="https://changeyooo.github.io/post/zai-jian-liu-yue/">
-        <h2 class="post-title">再见六月</h2>
+      <a href="https://changeyooo.github.io/post/biao-mian-zhao-se-qi-de-zu-zhi-jie-gou/" class="btn">
+        Read more
       </a>
-      <div class="post-info">
-        <span>
-          2022-01-25
-        </span>
-        <span>
-          8 min read
-        </span>
-        
-          <a href="https://changeyooo.github.io/tag/r8phx72Du/" class="post-tag">
-            # 往事
-          </a>
-        
-      </div>
-      
-        <a href="https://changeyooo.github.io/post/zai-jian-liu-yue/" class="post-feature-image" style="background-image: url('https://changeyooo.github.io/post-images/zai-jian-liu-yue.jpg')">
+    </div>
+    
+      <img class="flex-shrink-0 self-start md:ml-4 mb-4 md:mb-0 rounded-sm object-cover featured-img order-1 md:order-2 w-full h-40 md:w-56 md:h-32" loading="lazy" src="http://r63h88db4.hn-bkt.clouddn.com/qita/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20220125230916.jpg,change" alt="表面着色器的组织结构">
+    
+  </div>
+
+  <div class="p-8 border-b border-gray-200 dark:border-gray-700 flex relative overflow-hidden flex-col md:flex-row animated fadeIn">
+    
+    <div class="flex-1 order-2 md:order-1">
+      <h2 class="text-2xl font-semibold mb-4">
+        <a href="https://changeyooo.github.io/post/zai-jian-liu-yue/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
+          再见六月
         </a>
-      
-      <div class="post-abstract">
+      </h2>
+      <div class="mb-4 text-xs text-gray-500">2022-01-25</div>
+      <div class="mb-4 text-gray-500 dark:text-gray-300">
         <p><em>过往那些遗憾才是最美好的</em></p>
 
       </div>
-    </article>
-  
-    <article class="post">
-      <a href="https://changeyooo.github.io/post/jiang-zhuang/">
-        <h2 class="post-title">奖状</h2>
+      <a href="https://changeyooo.github.io/post/zai-jian-liu-yue/" class="btn">
+        Read more
       </a>
-      <div class="post-info">
-        <span>
-          2022-01-07
-        </span>
-        <span>
-          10 min read
-        </span>
-        
-          <a href="https://changeyooo.github.io/tag/r8phx72Du/" class="post-tag">
-            # 往事
-          </a>
-        
-      </div>
-      
-        <a href="https://changeyooo.github.io/post/jiang-zhuang/" class="post-feature-image" style="background-image: url('https://changeyooo.github.io/post-images/jiang-zhuang.jpg')">
+    </div>
+    
+      <img class="flex-shrink-0 self-start md:ml-4 mb-4 md:mb-0 rounded-sm object-cover featured-img order-1 md:order-2 w-full h-40 md:w-56 md:h-32" loading="lazy" src="https://changeyooo.github.io/post-images/zai-jian-liu-yue.jpg" alt="再见六月">
+    
+  </div>
+
+  <div class="p-8 border-b border-gray-200 dark:border-gray-700 flex relative overflow-hidden flex-col md:flex-row animated fadeIn">
+    
+    <div class="flex-1 order-2 md:order-1">
+      <h2 class="text-2xl font-semibold mb-4">
+        <a href="https://changeyooo.github.io/post/jiang-zhuang/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
+          奖状
         </a>
-      
-      <div class="post-abstract">
+      </h2>
+      <div class="mb-4 text-xs text-gray-500">2022-01-07</div>
+      <div class="mb-4 text-gray-500 dark:text-gray-300">
         <p><em>这是一段关于奖状的童年平淡小故事</em></p>
 
       </div>
-    </article>
-  
-</div>
-
-    
-        <div class="pagination-container">
-  
-  
-</div>
-
-    
-        <div class="site-footer">
-  ————这是底线————
-  <a class="rss" href="https://changeyooo.github.io/atom.xml" target="_blank">
-    <i class="ri-rss-line"></i> RSS
-  </a>
-</div>
-
-      </div>
+      <a href="https://changeyooo.github.io/post/jiang-zhuang/" class="btn">
+        Read more
+      </a>
     </div>
-  </body>
+    
+      <img class="flex-shrink-0 self-start md:ml-4 mb-4 md:mb-0 rounded-sm object-cover featured-img order-1 md:order-2 w-full h-40 md:w-56 md:h-32" loading="lazy" src="https://changeyooo.github.io/post-images/jiang-zhuang.jpg" alt="奖状">
+    
+  </div>
+  
+      </div>
+
+      
+      <footer class="py-12 text-center px-4 md:px-0" v-pre>
+  ————这是底线————
+</footer>
+
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <script src="https://changeyooo.github.io/media/scripts/main.js"></script>
+</body>
+
 </html>
