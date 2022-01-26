@@ -15,14 +15,16 @@
     
 
   <meta name="description" content="Properties 属性语法
-_Name (&amp;quot;Display Name&amp;quot;, type) = defaultValue [{options} ]
+*_Name (&amp;quot;Display Name&amp;quot;, type) = defaultValue [{options} ]*
 
-_Name： 属性的名字。（为了方便获取,通常在名字的最前加一个下画线,..." />
+
+_Name： 属性的名字。（为了方便获取,通常在名字的最前加一个下..." />
   <meta property="og:title" content="ShaderLab - Change&#39;s blog">
   <meta property="og:description" content="Properties 属性语法
-_Name (&amp;quot;Display Name&amp;quot;, type) = defaultValue [{options} ]
+*_Name (&amp;quot;Display Name&amp;quot;, type) = defaultValue [{options} ]*
 
-_Name： 属性的名字。（为了方便获取,通常在名字的最前加一个下画线,..." />
+
+_Name： 属性的名字。（为了方便获取,通常在名字的最前加一个下..." />
   <meta property="og:type" content="articles">
   <meta property="og:url" content="https://changeyooo.github.io/post/shaderlab/" />
   <meta property="og:image" content="http://r63h88db4.hn-bkt.clouddn.com/qita/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20220125230916.jpg,change">
@@ -30,9 +32,10 @@ _Name： 属性的名字。（为了方便获取,通常在名字的最前加一�
   <meta property="og:image:width" content="1200">
   <meta name="twitter:title" content="ShaderLab - Change&#39;s blog">
   <meta name="twitter:description" content="Properties 属性语法
-_Name (&amp;quot;Display Name&amp;quot;, type) = defaultValue [{options} ]
+*_Name (&amp;quot;Display Name&amp;quot;, type) = defaultValue [{options} ]*
 
-_Name： 属性的名字。（为了方便获取,通常在名字的最前加一个下画线,...">
+
+_Name： 属性的名字。（为了方便获取,通常在名字的最前加一个下...">
   <meta name="twitter:card" content="summary_large_image">
   <link rel="canonical" href="https://changeyooo.github.io/post/shaderlab/">
 
@@ -70,7 +73,8 @@ _Name： 属性的名字。（为了方便获取,通常在名字的最前加一�
         </div>
         <div class="markdown mb-8" v-pre>
           <h1 id="properties-属性语法">Properties 属性语法</h1>
-<p><em>_Name (&quot;Display Name&quot;, type) = defaultValue [{options} ]</em></p>
+<pre><code>*_Name (&quot;Display Name&quot;, type) = defaultValue [{options} ]*
+</code></pre>
 <ul>
 <li><strong>_Name</strong>： 属性的名字。（为了方便获取,通常在名字的最前加一个下画线,后续在整个Shader 中都将使用这个名称来获取该属性。）</li>
 <li><strong>Display Name</strong>：在材质面板中显示出来的名称。<br>
@@ -78,25 +82,35 @@ type：属性的类型</li>
 <li><strong>defaultValue</strong>：将 Shader 指定给材质的时候初始化的默认值。</li>
 </ul>
 <h1 id="数值类属性">数值类属性</h1>
-<p><em>name (&quot;display name&quot;, Float) = number</em></p>
-<p><em>name (&quot;display name&quot;, Range (min, max)) = number</em></p>
+<pre><code>*name (&quot;display name&quot;, Float) = number*
+
+*name (&quot;display name&quot;, Range (min, max)) = number*
+</code></pre>
 <ul>
 <li><strong>Float</strong> 是任意数值的浮点型数据，在材质面板上作为数宇输人框显示。</li>
 <li><strong>Range</strong> 是一个介于最大值和最小值之间的浮点型数据，在材质面板作为滑动条显示。</li>
 </ul>
 <h1 id="颜色和向量类属性">颜色和向量类属性</h1>
-<p><em>name (&quot;display name&quot;, Color) = (number, number, number, number)</em></p>
-<p><em>name (&quot;display name&quot;, Vector) = (number1, number2, number 3, number4)</em></p>
+<pre><code>*name (&quot;display name&quot;, Color) = (number, number, number, number)*
+
+*name (&quot;display name&quot;, Vector) = (number1, number2, number 3, number4)*
+</code></pre>
 <ul>
-<li><strong>Color</strong> 是颜色类型的数据，由RGBA四个分量定义，面板上会显示取色器</li>
-<li><strong>Vector</strong> 是向量类型属性，是四维数字，面板上会显示 X,Y,Z,W</li>
-</ul>
+<li>
+<p><strong>Color</strong> 是颜色类型的数据，由RGBA四个分量定义，面板上会显示取色器</p>
+</li>
+<li>
+<p><strong>Vector</strong> 是向量类型属性，是四维数字，面板上会显示 X,Y,Z,W</p>
 <p><em>name (&quot;display name&quot;, 2D) = &quot;defaulttexture&quot;{}</em></p>
 <p><em>name (&quot;display name&quot;Cube) = &quot;defaulttexture&quot; {}</em></p>
 <p><em>name (&quot;display name&quot;, 3D) = &quot;defaulttexture&quot;{}</em></p>
-<ul>
-<li><strong>2D</strong> 属性是纹理属性中最常使用的，漫反射贴图，法线贴图等都属于2D类型</li>
-<li><strong>Cube</strong>（立方体纹理），是由前后左右上下6张有联系的2D贴图拼成的立方体，主要用作反射，例如SkyBox和Reflection Prob</li>
+</li>
+<li>
+<p><strong>2D</strong> 属性是纹理属性中最常使用的，漫反射贴图，法线贴图等都属于2D类型</p>
+</li>
+<li>
+<p><strong>Cube</strong>（立方体纹理），是由前后左右上下6张有联系的2D贴图拼成的立方体，主要用作反射，例如SkyBox和Reflection Prob</p>
+</li>
 </ul>
 
         </div>
