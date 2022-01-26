@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://changeyooo.github.io</id>
     <title>Change&apos;s blog</title>
-    <updated>2022-01-26T04:09:20.529Z</updated>
+    <updated>2022-01-26T04:12:34.965Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://changeyooo.github.io"/>
     <link rel="self" href="https://changeyooo.github.io/atom.xml"/>
@@ -24,35 +24,35 @@
 ]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[语义]]></title>
+        <title type="html"><![CDATA[笔记#04 | 语义]]></title>
         <id>https://changeyooo.github.io/post/yu-yi/</id>
         <link href="https://changeyooo.github.io/post/yu-yi/">
         </link>
         <updated>2022-01-25T16:23:45.000Z</updated>
     </entry>
     <entry>
-        <title type="html"><![CDATA[ShaderLab]]></title>
+        <title type="html"><![CDATA[笔记#03 | ShaderLab]]></title>
         <id>https://changeyooo.github.io/post/shaderlab/</id>
         <link href="https://changeyooo.github.io/post/shaderlab/">
         </link>
         <updated>2022-01-25T15:34:28.000Z</updated>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Shader结构]]></title>
+        <title type="html"><![CDATA[笔记#02 | Shader结构]]></title>
         <id>https://changeyooo.github.io/post/shader-jie-gou/</id>
         <link href="https://changeyooo.github.io/post/shader-jie-gou/">
         </link>
         <updated>2022-01-25T15:31:24.000Z</updated>
     </entry>
     <entry>
-        <title type="html"><![CDATA[表面着色器的组织结构]]></title>
+        <title type="html"><![CDATA[笔记#01 | 表面着色器的组织结构]]></title>
         <id>https://changeyooo.github.io/post/biao-mian-zhao-se-qi-de-zu-zhi-jie-gou/</id>
         <link href="https://changeyooo.github.io/post/biao-mian-zhao-se-qi-de-zu-zhi-jie-gou/">
         </link>
         <updated>2022-01-25T13:24:53.000Z</updated>
     </entry>
     <entry>
-        <title type="html"><![CDATA[再见六月]]></title>
+        <title type="html"><![CDATA[故事#03 | 再见六月]]></title>
         <id>https://changeyooo.github.io/post/zai-jian-liu-yue/</id>
         <link href="https://changeyooo.github.io/post/zai-jian-liu-yue/">
         </link>
@@ -63,7 +63,7 @@
 ]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[奖状]]></title>
+        <title type="html"><![CDATA[故事#02 | 奖状]]></title>
         <id>https://changeyooo.github.io/post/jiang-zhuang/</id>
         <link href="https://changeyooo.github.io/post/jiang-zhuang/">
         </link>
@@ -74,7 +74,7 @@
 ]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[方盒子]]></title>
+        <title type="html"><![CDATA[故事#01 | 方盒子]]></title>
         <id>https://changeyooo.github.io/post/fang-he-zi/</id>
         <link href="https://changeyooo.github.io/post/fang-he-zi/">
         </link>
