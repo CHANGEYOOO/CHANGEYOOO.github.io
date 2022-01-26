@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://changeyooo.github.io</id>
     <title>Change&apos;s blog</title>
-    <updated>2022-01-26T12:54:44.629Z</updated>
+    <updated>2022-01-26T12:55:01.446Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://changeyooo.github.io"/>
     <link rel="self" href="https://changeyooo.github.io/atom.xml"/>
@@ -360,7 +360,7 @@ fixed Alpha;          //透明通道
 ]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[故事#00 青年路]]></title>
+        <title type="html"><![CDATA[故事#00 | 青年路]]></title>
         <id>https://changeyooo.github.io/post/qing-nian-lu/</id>
         <link href="https://changeyooo.github.io/post/qing-nian-lu/">
         </link>
