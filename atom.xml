@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://changeyooo.github.io</id>
     <title>Change&apos;s blog</title>
-    <updated>2022-01-27T16:06:13.666Z</updated>
+    <updated>2022-01-28T11:52:43.564Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://changeyooo.github.io"/>
     <link rel="self" href="https://changeyooo.github.io/atom.xml"/>
@@ -10,6 +10,88 @@
     <logo>https://changeyooo.github.io/images/avatar.png</logo>
     <icon>https://changeyooo.github.io/favicon.ico</icon>
     <rights>All rights reserved 2022, Change&apos;s blog</rights>
+    <entry>
+        <title type="html"><![CDATA[笔记#06 | 常用脚本插件备忘]]></title>
+        <id>https://changeyooo.github.io/post/bi-ji-06-or-chang-yong-jiao-ben-cha-jian-bei-wang/</id>
+        <link href="https://changeyooo.github.io/post/bi-ji-06-or-chang-yong-jiao-ben-cha-jian-bei-wang/">
+        </link>
+        <updated>2022-01-28T11:49:02.000Z</updated>
+        <content type="html"><![CDATA[<h2 id="maya常用脚本备忘">Maya常用脚本备忘</h2>
+<h3 id="导出">导出</h3>
+<pre><code>string $objname[]  =`ls -sl`;
+string $savePath = ”D:/Data/houdini 建模素材_v01-1109/立体仓库/轨道“;//替换路径
+for ($SObjname in $objname ){
+  file -force -options ”v=0;“ -typ ”FBX export“ -pr -es ($savePath +”/“ + $SObjname+”.fbx“);
+  }
+</code></pre>
+<h3 id="合并顶点">合并顶点</h3>
+<pre><code>import maya.cmds as cmds
+#全选合并点
+cmds.selectType( v=True )
+cmds.polyMergeVertex(d=0.0001)
+#法线一致
+cmds.polyNormal(nm=True)
+</code></pre>
+<h3 id="测量尺寸">测量尺寸</h3>
+<pre><code>import maya.cmds as cmds
+from collections import Counter
+from functools import partial
+
+JobSelected=cmds.scriptJob(event=[”SelectionChanged“, ”AutoUpdateInfo()“])
+
+def KillJob():
+   cmds.scriptJob( kill=JobSelected, force=True)
+   
+def AutoUpdateInfo():
+    ObjectSelect=cmds.ls(sl=True,fl=True)
+    transforms = cmds.listRelatives(ObjectSelect,typ=”mesh“)
+
+    yep=cmds.listRelatives(transforms, p=True,pa=True)
+
+    try:
+        for i in yep:
+            queryNameObject=cmds.text(”TitleText“,e=True,l=str(i)+” Size“)
+            List =cmds.listRelatives(i,f=True)
+            transforms1 = cmds.listRelatives(i,typ=”mesh“)
+            for j in List:
+                if j.find(’MesuresGRP_‘) != -1 or j.find(’_BoundingBox‘) != -1:
+                    sizeX=cmds.getAttr(”Distance_X_“+str(transforms1[0])+”.distance“)
+                    sizeY=cmds.getAttr(”Distance_Y_“+str(transforms1[0])+”.distance“)
+                    sizeZ=cmds.getAttr(”Distance_Z_“+str(transforms1[0])+”.distance“)
+                   
+                    round(sizeX,3),round(sizeY,3),round(sizeZ,3)  
+                    sizeX,sizeY,sizeZ=round(sizeX,3),round(sizeY,3),round(sizeZ,3)
+                   
+                    cmds.textField(”sizeXTextField“,e=True,tx=sizeX)
+                    cmds.textField(”sizeYTextField“,e=True,tx=sizeY)
+                    cmds.textField(”sizeZTextField“,e=True,tx=sizeZ)
+                    cmds.textField(”NewSizeX“,e=True,tx=sizeX)
+                    cmds.textField(”NewSizeY“,e=True,tx=sizeY)
+                    cmds.textField(”NewSizeZ“,e=True,tx=sizeZ)                    
+                else:
+                    cmds.textField(”sizeXTextField“,e=True,tx=0)
+                    cmds.textField(”sizeYTextField“,e=True,tx=0)
+                    cmds.textField(”sizeZTextField“,e=True,tx=0)
+                    cmds.textField(”NewSizeX“,e=True,tx=0)
+                    cmds.textField(”NewSizeY“,e=True,tx=0)
+                    cmds.textField(”NewSizeZ“,e=True,tx=0)  
+     
+    except:
+        pass      
+
+
+
+def QueryUnit()
+</code></pre>
+<h2 id="unity插件备忘">Unity插件备忘</h2>
+<h3 id="ase插件">ASE插件</h3>
+<h3 id="amplify-shader-editor">Amplify Shader Editor</h3>
+<p><a href="https://www.aliyundrive.com/s/7XvyjEvUUNo">网盘链接</a></p>
+<h3 id="输出视频图片-插件">输出视频/图片 插件</h3>
+<h3 id="recorder">Recorder</h3>
+<figure data-type="image" tabindex="1"><img src="https://cdn.jsdelivr.net/gh/CHANGEYOOO/CHANGEYOOO.github.io@img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220118150240.png" alt="" loading="lazy"></figure>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[笔记#05 | 部分效果图合集]]></title>
         <id>https://changeyooo.github.io/post/bi-ji-05-or-bu-fen-xiao-guo-tu-he-ji/</id>
