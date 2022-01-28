@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://changeyooo.github.io</id>
+    <id>https://kjoe.top</id>
     <title>Kjoe&apos;s blog</title>
-    <updated>2022-01-28T12:19:24.484Z</updated>
+    <updated>2022-01-28T12:28:58.521Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://changeyooo.github.io"/>
-    <link rel="self" href="https://changeyooo.github.io/atom.xml"/>
+    <link rel="alternate" href="https://kjoe.top"/>
+    <link rel="self" href="https://kjoe.top/atom.xml"/>
     <subtitle>如果足够勇敢说再见，生活便会奖励你一个新的开始</subtitle>
-    <logo>https://changeyooo.github.io/images/avatar.png</logo>
-    <icon>https://changeyooo.github.io/favicon.ico</icon>
+    <logo>https://kjoe.top/images/avatar.png</logo>
+    <icon>https://kjoe.top/favicon.ico</icon>
     <rights>All rights reserved 2022, Kjoe&apos;s blog</rights>
     <entry>
         <title type="html"><![CDATA[笔记#06 | 常用脚本插件备忘]]></title>
-        <id>https://changeyooo.github.io/post/bi-ji-06-or-chang-yong-jiao-ben-cha-jian-bei-wang/</id>
-        <link href="https://changeyooo.github.io/post/bi-ji-06-or-chang-yong-jiao-ben-cha-jian-bei-wang/">
+        <id>https://kjoe.top/post/bi-ji-06-or-chang-yong-jiao-ben-cha-jian-bei-wang/</id>
+        <link href="https://kjoe.top/post/bi-ji-06-or-chang-yong-jiao-ben-cha-jian-bei-wang/">
         </link>
         <updated>2022-01-28T11:49:02.000Z</updated>
         <summary type="html"><![CDATA[<p><font color=8b8b8b size=4>“这是一个备忘录，不定期补充”</font></p>
@@ -98,8 +98,8 @@ def QueryUnit()
     </entry>
     <entry>
         <title type="html"><![CDATA[笔记#05 | 部分效果图合集]]></title>
-        <id>https://changeyooo.github.io/post/bi-ji-05-or-bu-fen-xiao-guo-tu-he-ji/</id>
-        <link href="https://changeyooo.github.io/post/bi-ji-05-or-bu-fen-xiao-guo-tu-he-ji/">
+        <id>https://kjoe.top/post/bi-ji-05-or-bu-fen-xiao-guo-tu-he-ji/</id>
+        <link href="https://kjoe.top/post/bi-ji-05-or-bu-fen-xiao-guo-tu-he-ji/">
         </link>
         <updated>2022-01-26T13:44:05.000Z</updated>
         <summary type="html"><![CDATA[<p><font color=8b8b8b size=3><em>“图片较大请耐心等待”</em></font></p>
@@ -131,8 +131,8 @@ def QueryUnit()
     </entry>
     <entry>
         <title type="html"><![CDATA[电影#01 | 黄建新]]></title>
-        <id>https://changeyooo.github.io/post/dian-ying-01-or-huang-jian-xin/</id>
-        <link href="https://changeyooo.github.io/post/dian-ying-01-or-huang-jian-xin/">
+        <id>https://kjoe.top/post/dian-ying-01-or-huang-jian-xin/</id>
+        <link href="https://kjoe.top/post/dian-ying-01-or-huang-jian-xin/">
         </link>
         <updated>2022-01-26T13:02:01.000Z</updated>
         <summary type="html"><![CDATA[<p><font color=8b8b8b size=4><em>&quot;关于我最喜欢的导演——黄建新&quot;</em></font></p>
@@ -146,42 +146,42 @@ def QueryUnit()
 <p>第一部《站直了，别趴下》</p>
 <p>《站直了，别趴下》围绕一幢普通居民楼同一层的三户人家展开，作家高文有才华，富正义感，却又懦弱，机关刘干部看似正气凛然，实际阴阳两面，底下收受贿赂，大搞不正之风。同样懦弱而自私，大老粗张永武则是一个野蛮强横的暴发户。</p>
 <p>《站直了，别趴下》中整体镜头的运用主要是中近景的固定平视镜头，这种镜头设计可以让观众以一个旁观者近距离的观察影片中发生的故事，拉近与观众的距离，让观众进入到影片中，更好的享受黄建新想讲给观众的故事，影片中景别的选择与剧中人物之间心理上的远近距离关系密切相关，在人物关系亲近时，所选择的景别也更紧凑，相反关系疏远时，则多选择中远全景。我认为比较典型的场景是在邻居四儿来高作家家里拜访，想和高作家商量换房子的事那一幕，一开始高作家以为邻居只是来家里拜访一下，表现得比较热情以及心理上并没有排斥与提防，镜头给了一个两人并排坐在一起的近景，而邻居四儿突然问高作家对他们家张永武是不是有意见之类的话时，高作家突然默默站起来走到媳妇旁边坐下，镜头也切换成了一个小远景，暗示着此时高作家一家和来访邻居的心理距离突然拉远，甚至是心理上开始防备，紧接着镜头又切换到侧面的远景，让两方人各占画面一侧，中间隔着一扇门框，更表现出这一心理变化。</p>
-<p><img src="https://changeyooo.github.io/post-images/1643202252016.png" alt="" loading="lazy"><br>
-<img src="https://changeyooo.github.io/post-images/1643202258001.png" alt="" loading="lazy"><br>
-<img src="https://changeyooo.github.io/post-images/1643202266221.png" alt="" loading="lazy"><br>
-<img src="https://changeyooo.github.io/post-images/1643202276278.png" alt="" loading="lazy"></p>
+<p><img src="https://kjoe.top/post-images/1643202252016.png" alt="" loading="lazy"><br>
+<img src="https://kjoe.top/post-images/1643202258001.png" alt="" loading="lazy"><br>
+<img src="https://kjoe.top/post-images/1643202266221.png" alt="" loading="lazy"><br>
+<img src="https://kjoe.top/post-images/1643202276278.png" alt="" loading="lazy"></p>
 <p>影片除了通过景别变化来表现故事以外，还有一些有趣的镜头设计，影片开头导演通过一个眼镜的特写镜头来表现主角的知识分子身份，通过床铺的位置以及外面有人突然开灯打扰到主角的两个镜头，表现出主角一开始的生活居住条件非常差。</p>
-<p><img src="https://changeyooo.github.io/post-images/1643202286078.png" alt="" loading="lazy"><br>
-<img src="https://changeyooo.github.io/post-images/1643202290090.png" alt="" loading="lazy"><br>
-<img src="https://changeyooo.github.io/post-images/1643202296887.png" alt="" loading="lazy"></p>
+<p><img src="https://kjoe.top/post-images/1643202286078.png" alt="" loading="lazy"><br>
+<img src="https://kjoe.top/post-images/1643202290090.png" alt="" loading="lazy"><br>
+<img src="https://kjoe.top/post-images/1643202296887.png" alt="" loading="lazy"></p>
 <p>影片中有两次出现了猫眼视角的镜头，是刘干部在透过猫眼观察楼道，这两个镜头表现出了邻里关系的紧张以及侧面表现了刘干部的阴阳两面的人物特征。</p>
-<figure data-type="image" tabindex="1"><img src="https://changeyooo.github.io/post-images/1643202302017.png" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="1"><img src="https://kjoe.top/post-images/1643202302017.png" alt="" loading="lazy"></figure>
 <p>在高作家去张家喝酒时，导演将人物放在画面非常左的位置，通过这一设计将高作家妻子内心的不安通过画面传达给了观众。</p>
-<figure data-type="image" tabindex="2"><img src="https://changeyooo.github.io/post-images/1643202311707.png" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="2"><img src="https://kjoe.top/post-images/1643202311707.png" alt="" loading="lazy"></figure>
 <p>影片中也用到了用颜色来表现角色内心情感，当角色内心感到苦闷时，就会出现大面积深蓝色的画面，影片到了尾声，高作家发现自己在两家人之间左右不讨好，处境变得尬尴至极，影片中的影调也发生了变化，从明亮变成了阴暗压抑。</p>
-<p><img src="https://changeyooo.github.io/post-images/1643202317729.png" alt="" loading="lazy"><br>
-<img src="https://changeyooo.github.io/post-images/1643202321114.png" alt="" loading="lazy"><br>
-<img src="https://changeyooo.github.io/post-images/1643202327121.png" alt="" loading="lazy"><br>
-<img src="https://changeyooo.github.io/post-images/1643202332311.png" alt="" loading="lazy"></p>
+<p><img src="https://kjoe.top/post-images/1643202317729.png" alt="" loading="lazy"><br>
+<img src="https://kjoe.top/post-images/1643202321114.png" alt="" loading="lazy"><br>
+<img src="https://kjoe.top/post-images/1643202327121.png" alt="" loading="lazy"><br>
+<img src="https://kjoe.top/post-images/1643202332311.png" alt="" loading="lazy"></p>
 <p>影片用拍合影时摄影师不慎摔倒，导致镜头歪斜的画面，表现故事的荒诞</p>
-<figure data-type="image" tabindex="3"><img src="https://changeyooo.github.io/post-images/1643202340512.png" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="3"><img src="https://kjoe.top/post-images/1643202340512.png" alt="" loading="lazy"></figure>
 <p>第二部《背靠背，脸对脸》</p>
 <p>《背靠背，脸对脸》这部影片也展现着黄建新导演的一贯风格，以剧情故事为主导，画面镜头非常朴素，这部影片改编自《秋风醉了》，本身就拥有扎实的文本作支撑，加上黄建新讲故事的能力，用故事撑起了整部影片，用文化馆中日常发生的一幕幕小故事串联起来表现一个小小的文化馆中的勾心斗角，以及角色的成长与反思，这部影片同样充满了大量的生活细节，让观众感到极为真实，代入感极强，人物塑造得也极其丰满，每个人都有独特的性格，都是活生生的人。</p>
 <p>这部影片和第一部《站直了，别趴下》一样，对蓝色有其独特的用法，整部影片主角代理馆长王双立有两次较大的打击，一次是在歌舞厅试营业时，徐副局长告诉王双立他还是代理馆长，参加舞会的官员们散去后，王双立独自回到歌舞厅，出现了大面积的蓝色灯光，以及王双立坐在舞台上，散乱的蓝色舞台灯光打在他的身上，表现王双立此时因为没有当上正馆长，内心非常的苦闷与失落，第二次是因为王双立的鞋匠父亲出事了，王双立急忙赶去医院时，医院楼道内的幽蓝色灯光，表现王双立此时的担忧。</p>
-<p><img src="https://changeyooo.github.io/post-images/1643202440647.png" alt="" loading="lazy"><br>
-<img src="https://changeyooo.github.io/post-images/1643202447092.png" alt="" loading="lazy"><br>
-<img src="https://changeyooo.github.io/post-images/1643202451931.png" alt="" loading="lazy"></p>
+<p><img src="https://kjoe.top/post-images/1643202440647.png" alt="" loading="lazy"><br>
+<img src="https://kjoe.top/post-images/1643202447092.png" alt="" loading="lazy"><br>
+<img src="https://kjoe.top/post-images/1643202451931.png" alt="" loading="lazy"></p>
 <p>同《站直了，别趴下》一样，这部影片中黄建新也使用了特殊的画面构图来表现人物的内心情绪，在老马在抗洪救灾摄影展上被算计时，导演把人物安排在了左上角非常偏的位置，并且使用了广角镜头，纵深透视很强，表现出了老马此时的痛苦与难堪，上文提到的王双立去医院找父亲的一镜，也是在画面构图上有所设计，画面用了一个全景镜头把人物放的很小，曲折倾斜的楼梯，加上楼梯下透视感极强并且深不可测的楼道，来表现人物的紧张情绪。</p>
-<p><img src="https://changeyooo.github.io/post-images/1643202457151.png" alt="" loading="lazy"><br>
-<img src="https://changeyooo.github.io/post-images/1643202463751.png" alt="" loading="lazy"></p>
+<p><img src="https://kjoe.top/post-images/1643202457151.png" alt="" loading="lazy"><br>
+<img src="https://kjoe.top/post-images/1643202463751.png" alt="" loading="lazy"></p>
 <p>黄建新导演的作品，虽然画面朴素，但是在情绪达到高潮时，画面上也会有巧妙的设计，加上和画面相比十分强大的文本水平，将故事表现的淋漓尽致，我个人对黄建新导演的作品的理解是剧情优先，画面服务于剧情，文本是电影创作的地基，好电影一定是一个好故事，好故事才能打动人，电影有别于杂耍甚至是戏剧，就是电影能够深入到人们生活中去，并且给人反思与警醒，也就是“艺术来源于生活却高于生活”。他的电影贴近生活，让普通人能够欣赏，同时又富含哲理和对现实世界的隐喻，这也是我非常欣赏并且喜欢黄建新导演的作品的原因。</p>
 <p>End</p>
 ]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[笔记#04 | 语义]]></title>
-        <id>https://changeyooo.github.io/post/yu-yi/</id>
-        <link href="https://changeyooo.github.io/post/yu-yi/">
+        <id>https://kjoe.top/post/yu-yi/</id>
+        <link href="https://kjoe.top/post/yu-yi/">
         </link>
         <updated>2022-01-25T16:23:45.000Z</updated>
         <content type="html"><![CDATA[<ul>
@@ -214,8 +214,8 @@ def QueryUnit()
     </entry>
     <entry>
         <title type="html"><![CDATA[笔记#03 | ShaderLab]]></title>
-        <id>https://changeyooo.github.io/post/shaderlab/</id>
-        <link href="https://changeyooo.github.io/post/shaderlab/">
+        <id>https://kjoe.top/post/shaderlab/</id>
+        <link href="https://kjoe.top/post/shaderlab/">
         </link>
         <updated>2022-01-25T15:34:28.000Z</updated>
         <content type="html"><![CDATA[<h1 id="properties-属性语法">Properties 属性语法</h1>
@@ -262,8 +262,8 @@ name (&quot;display name&quot;, Vector) = (number1, number2, number 3, number4)
     </entry>
     <entry>
         <title type="html"><![CDATA[笔记#02 | Shader结构]]></title>
-        <id>https://changeyooo.github.io/post/shader-jie-gou/</id>
-        <link href="https://changeyooo.github.io/post/shader-jie-gou/">
+        <id>https://kjoe.top/post/shader-jie-gou/</id>
+        <link href="https://kjoe.top/post/shader-jie-gou/">
         </link>
         <updated>2022-01-25T15:31:24.000Z</updated>
         <content type="html"><![CDATA[<h1 id="shader">Shader</h1>
@@ -280,8 +280,8 @@ name (&quot;display name&quot;, Vector) = (number1, number2, number 3, number4)
     </entry>
     <entry>
         <title type="html"><![CDATA[笔记#01 | 表面着色器的组织结构]]></title>
-        <id>https://changeyooo.github.io/post/biao-mian-zhao-se-qi-de-zu-zhi-jie-gou/</id>
-        <link href="https://changeyooo.github.io/post/biao-mian-zhao-se-qi-de-zu-zhi-jie-gou/">
+        <id>https://kjoe.top/post/biao-mian-zhao-se-qi-de-zu-zhi-jie-gou/</id>
+        <link href="https://kjoe.top/post/biao-mian-zhao-se-qi-de-zu-zhi-jie-gou/">
         </link>
         <updated>2022-01-25T13:24:53.000Z</updated>
         <content type="html"><![CDATA[<h2 id="表面着色器编译指令语法结构">表面着色器编译指令语法结构</h2>
@@ -344,8 +344,8 @@ fixed Alpha;          //透明通道
     </entry>
     <entry>
         <title type="html"><![CDATA[故事#03 | 再见六月]]></title>
-        <id>https://changeyooo.github.io/post/zai-jian-liu-yue/</id>
-        <link href="https://changeyooo.github.io/post/zai-jian-liu-yue/">
+        <id>https://kjoe.top/post/zai-jian-liu-yue/</id>
+        <link href="https://kjoe.top/post/zai-jian-liu-yue/">
         </link>
         <updated>2022-01-25T13:07:11.000Z</updated>
         <summary type="html"><![CDATA[<p><em><font color = #8b8b8b size=4>“过往那些遗憾才是最美好的”</font></em></p>
@@ -412,8 +412,8 @@ fixed Alpha;          //透明通道
     </entry>
     <entry>
         <title type="html"><![CDATA[故事#02 | 奖状]]></title>
-        <id>https://changeyooo.github.io/post/jiang-zhuang/</id>
-        <link href="https://changeyooo.github.io/post/jiang-zhuang/">
+        <id>https://kjoe.top/post/jiang-zhuang/</id>
+        <link href="https://kjoe.top/post/jiang-zhuang/">
         </link>
         <updated>2022-01-07T15:35:46.000Z</updated>
         <summary type="html"><![CDATA[<p><font color = #8b8b8b size=4><em>&quot;这是一段关于奖状的童年平淡小故事&quot;</em></font></p>
@@ -471,8 +471,8 @@ fixed Alpha;          //透明通道
     </entry>
     <entry>
         <title type="html"><![CDATA[故事#01 | 方盒子]]></title>
-        <id>https://changeyooo.github.io/post/fang-he-zi/</id>
-        <link href="https://changeyooo.github.io/post/fang-he-zi/">
+        <id>https://kjoe.top/post/fang-he-zi/</id>
+        <link href="https://kjoe.top/post/fang-he-zi/">
         </link>
         <updated>2021-12-21T15:29:56.000Z</updated>
         <summary type="html"><![CDATA[<p><em><font color = #8b8b8b size=4>“我们在方盒子里生活，最后在方盒子里死去”</font ></em></p>
@@ -507,8 +507,8 @@ fixed Alpha;          //透明通道
     </entry>
     <entry>
         <title type="html"><![CDATA[故事#00 | 青年路]]></title>
-        <id>https://changeyooo.github.io/post/qing-nian-lu/</id>
-        <link href="https://changeyooo.github.io/post/qing-nian-lu/">
+        <id>https://kjoe.top/post/qing-nian-lu/</id>
+        <link href="https://kjoe.top/post/qing-nian-lu/">
         </link>
         <updated>2021-12-19T12:50:51.000Z</updated>
         <summary type="html"><![CDATA[<p><font color=8b8b8b size=4><em>“零几年发生在青年路的事情”</em></font></p>
