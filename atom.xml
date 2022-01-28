@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://changeyooo.github.io</id>
     <title>Kjoe&apos;s blog</title>
-    <updated>2022-01-28T12:51:25.122Z</updated>
+    <updated>2022-01-28T12:53:45.657Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://changeyooo.github.io"/>
     <link rel="self" href="https://changeyooo.github.io/atom.xml"/>
@@ -130,7 +130,7 @@ def QueryUnit()
 ]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[电影#01 | 黄建新]]></title>
+        <title type="html"><![CDATA[电影#01 | 站直啰，别趴下！]]></title>
         <id>https://changeyooo.github.io/post/dian-ying-01-or-huang-jian-xin/</id>
         <link href="https://changeyooo.github.io/post/dian-ying-01-or-huang-jian-xin/">
         </link>
