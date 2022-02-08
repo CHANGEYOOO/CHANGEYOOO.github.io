@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://changeyooo.github.io</id>
     <title>Kjoe&apos;s blog</title>
-    <updated>2022-02-08T08:38:41.023Z</updated>
+    <updated>2022-02-08T09:16:04.411Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://changeyooo.github.io"/>
     <link rel="self" href="https://changeyooo.github.io/atom.xml"/>
@@ -10,6 +10,23 @@
     <logo>https://changeyooo.github.io/images/avatar.png</logo>
     <icon>https://changeyooo.github.io/favicon.ico</icon>
     <rights>All rights reserved 2022, Kjoe&apos;s blog</rights>
+    <entry>
+        <title type="html"><![CDATA[练习#01 | 《太空救援》分镜设计]]></title>
+        <id>https://changeyooo.github.io/post/fen/</id>
+        <link href="https://changeyooo.github.io/post/fen/">
+        </link>
+        <updated>2022-02-08T08:54:39.000Z</updated>
+        <summary type="html"><![CDATA[<p><em>“文末附有完整视频”</em></p>
+]]></summary>
+        <content type="html"><![CDATA[<p><em>“文末附有完整视频”</em></p>
+<!-- more -->
+<figure data-type="image" tabindex="1"><img src="https://s2.loli.net/2022/02/08/QsbMqFEB8VcorxK.jpg" alt="25 拷贝_00.jpg" loading="lazy"></figure>
+<figure data-type="image" tabindex="2"><img src="https://s2.loli.net/2022/02/08/ROCzXHS36dsYkpF.jpg" alt="25 拷贝_01.jpg" loading="lazy"></figure>
+<figure data-type="image" tabindex="3"><img src="https://s2.loli.net/2022/02/08/kAiLgXRPfzTunv3.jpg" alt="25 拷贝_02.jpg" loading="lazy"></figure>
+<p><em>参考影片《2001太空漫游》《2010》《星际穿越》《黑洞表面》</em></p>
+<p><a href="https://www.bilibili.com/video/BV16r4y127Rc?share_source=copy_web">《太空救援》分镜设计完整视频</a></p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[分享#02 | 《迷情黑白Framed ink》汉化版]]></title>
         <id>https://changeyooo.github.io/post/fen-xiang-02-or-lesslessmi-qing-hei-bai-framed-inkgreatergreater-han-hua-ban/</id>
