@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://changeyooo.github.io</id>
     <title>Kjoe&apos;s blog</title>
-    <updated>2022-02-08T10:09:14.718Z</updated>
+    <updated>2022-02-23T14:41:57.267Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://changeyooo.github.io"/>
     <link rel="self" href="https://changeyooo.github.io/atom.xml"/>
@@ -10,6 +10,26 @@
     <logo>https://changeyooo.github.io/images/avatar.png</logo>
     <icon>https://changeyooo.github.io/favicon.ico</icon>
     <rights>All rights reserved 2022, Kjoe&apos;s blog</rights>
+    <entry>
+        <title type="html"><![CDATA[练习#02 | Zbursh头像（踩坑记录）]]></title>
+        <id>https://changeyooo.github.io/post/lian-xi-02-or-zbursh-tou-xiang-cai-keng-ji-lu/</id>
+        <link href="https://changeyooo.github.io/post/lian-xi-02-or-zbursh-tou-xiang-cai-keng-ji-lu/">
+        </link>
+        <updated>2022-02-23T14:21:54.000Z</updated>
+        <summary type="html"><![CDATA[<p><font size= 3 color=8b8b8b><em>“zbrush浅雕一个人头吧”</em></font></p>
+]]></summary>
+        <content type="html"><![CDATA[<p><font size= 3 color=8b8b8b><em>“zbrush浅雕一个人头吧”</em></font></p>
+<!-- more -->
+<p><strong>zbrush雕刻+arnold渲染，打了个伦勃朗光+眼神光</strong></p>
+<h3 id="踩坑or未实现部分"><strong>踩坑or未实现部分：</strong></h3>
+<ol>
+<li>zbrush里把低细分等级的记录删除了，导致细分过高不好分uv，故皮肤没有做贴图</li>
+<li>毛发是直接用zbrush里生成的面片，没有使用maya的nhair毛发系统，后面有时间研究一下</li>
+<li>人中部分在雕刻的时候造型没做好，导致嘴唇浮肿</li>
+<li>脖子在雕刻阶段没注意，导致脖子很细，很违和</li>
+</ol>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[练习#01 | 《太空救援》分镜设计]]></title>
         <id>https://changeyooo.github.io/post/fen/</id>
