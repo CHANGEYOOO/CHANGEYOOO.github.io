@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://changeyooo.github.io</id>
     <title>Kjoe&apos;s blog</title>
-    <updated>2022-03-05T15:40:48.827Z</updated>
+    <updated>2022-03-06T08:03:52.733Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://changeyooo.github.io"/>
     <link rel="self" href="https://changeyooo.github.io/atom.xml"/>
@@ -10,6 +10,73 @@
     <logo>https://changeyooo.github.io/images/avatar.png</logo>
     <icon>https://changeyooo.github.io/favicon.ico</icon>
     <rights>All rights reserved 2022, Kjoe&apos;s blog</rights>
+    <entry>
+        <title type="html"><![CDATA[笔记#06 | houdini Copy节点]]></title>
+        <id>https://changeyooo.github.io/post/bi-ji-06-or-houdini-copy-jie-dian/</id>
+        <link href="https://changeyooo.github.io/post/bi-ji-06-or-houdini-copy-jie-dian/">
+        </link>
+        <updated>2022-03-05T15:54:00.000Z</updated>
+        <content type="html"><![CDATA[<h1 id="一-copy-and-transform">一、copy and transform</h1>
+<h1 id="二-copytopoints">二、copytopoints</h1>
+<h2 id="1-拷贝-box-到-sphere-顶点">1. 拷贝 box 到 sphere 顶点</h2>
+<h3 id="使用到的节点">使用到的节点：</h3>
+<ol>
+<li>box</li>
+<li>sphere</li>
+<li>transform</li>
+<li>copytopoints</li>
+<li>attribrandomize</li>
+</ol>
+<h3 id="效果">效果：</h3>
+<p><img src="https://s2.loli.net/2022/03/06/RbyLUvCqrpuNl23.png" alt="1.png" loading="lazy"><br>
+节点图：<br>
+<img src="https://s2.loli.net/2022/03/06/7QOAIPnl8sDoUqi.png" alt="2.png" loading="lazy"></p>
+<h3 id="注意">注意！：</h3>
+<p>为了让 box 在 sphere 的顶点上以随机朝向分布，故调整 sphere 顶点法线，使其随机<br>
+调整 attribrandomize 节点中 Attribute Name 参数 N 为法线<br>
+<img src="https://s2.loli.net/2022/03/06/7vAkFU2cXCHx6mo.png" alt="3.png" loading="lazy"></p>
+<h2 id="2-用点填充-box-再拷贝-box-到顶点">2. 用点填充 box ，再拷贝 box 到顶点</h2>
+<h3 id="使用到的节点-2">使用到的节点：</h3>
+<ol>
+<li>box</li>
+<li>transform</li>
+<li>pointsfromvolume</li>
+<li>vopytopoints</li>
+<li>polybevel</li>
+</ol>
+<h3 id="效果-2">效果：</h3>
+<figure data-type="image" tabindex="1"><img src="https://s2.loli.net/2022/03/06/Yg4pK6PGkvBjzsF.png" alt="4.png" loading="lazy"></figure>
+<h3 id="节点图">节点图：</h3>
+<figure data-type="image" tabindex="2"><img src="https://s2.loli.net/2022/03/06/afF2ZRkmsbwOKel.png" alt="5.png" loading="lazy"></figure>
+<h3 id="注意-2">注意！：</h3>
+<p>将 pointsfromvolume 节点中的 Point Separation 属性复制到 Transform 节点中的 Uniform Scale 里，目的是让 Box1 的缩放跟随 Pointsfromvolume 中 Point Separation （点的疏密）的变化而变化</p>
+<figure data-type="image" tabindex="3"><img src="https://s2.loli.net/2022/03/06/MzUQXuxHOP8C3wZ.png" alt="6.png" loading="lazy"></figure>
+<figure data-type="image" tabindex="4"><img src="https://s2.loli.net/2022/03/06/EAafNoXRg82vm5K.png" alt="7.png" loading="lazy"></figure>
+<figure data-type="image" tabindex="5"><img src="https://s2.loli.net/2022/03/06/2zN68AHn4raxKj3.png" alt="8.png" loading="lazy"></figure>
+<h2 id="3-物体随机分布">3. 物体随机分布</h2>
+<h3 id="使用到的节点-3">使用到的节点：</h3>
+<ol>
+<li>box</li>
+<li>sphere</li>
+<li>torus</li>
+<li>transform</li>
+<li>switch</li>
+<li>grid</li>
+<li>scatter (撒点)</li>
+<li>pointjitter （grid的起伏）</li>
+<li>copytopoints</li>
+<li>attribrandomize</li>
+</ol>
+<h3 id="效果-3">效果：</h3>
+<p><img src="https://s2.loli.net/2022/03/06/BDxKXbJGhy5zZ2v.png" alt="9.png" loading="lazy"><br>
+<img src="https://s2.loli.net/2022/03/06/42VGQhBWSk9lOMJ.png" alt="10.png" loading="lazy"></p>
+<h3 id="节点图-2">节点图：</h3>
+<figure data-type="image" tabindex="6"><img src="https://s2.loli.net/2022/03/06/4SCcrzXilQuTgBE.png" alt="11.png" loading="lazy"></figure>
+<h3 id="注意-3">注意！：</h3>
+<figure data-type="image" tabindex="7"><img src="https://s2.loli.net/2022/03/06/vNn35OaMoREZgtH.png" alt="12.png" loading="lazy"></figure>
+<figure data-type="image" tabindex="8"><img src="https://s2.loli.net/2022/03/06/I8LKAMetXCWd6aD.png" alt="13.png" loading="lazy"></figure>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[练习#02 | Zbursh头像（踩坑记录）]]></title>
         <id>https://changeyooo.github.io/post/lian-xi-02-or-zbursh-tou-xiang-cai-keng-ji-lu/</id>
