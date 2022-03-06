@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://changeyooo.github.io</id>
     <title>Kjoe&apos;s blog</title>
-    <updated>2022-03-06T08:49:54.898Z</updated>
+    <updated>2022-03-06T08:54:56.228Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://changeyooo.github.io"/>
     <link rel="self" href="https://changeyooo.github.io/atom.xml"/>
@@ -20,8 +20,7 @@
 ]]></summary>
         <content type="html"><![CDATA[<p>houdini学习笔记</p>
 <!-- more -->
-<h1 id="一-copytopoints">一、copytopoints</h1>
-<h2 id="1-拷贝-box-到-sphere-顶点">1. 拷贝 box 到 sphere 顶点</h2>
+<h1 id="一-物体消散效果">一、物体消散效果</h1>
 <h3 id="使用到的节点">使用到的节点：</h3>
 <ol>
 <li>solver (记忆上一帧历史记录)</li>
