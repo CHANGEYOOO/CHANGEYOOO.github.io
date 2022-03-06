@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://changeyooo.github.io</id>
     <title>Kjoe&apos;s blog</title>
-    <updated>2022-03-06T08:48:25.198Z</updated>
+    <updated>2022-03-06T08:49:54.898Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://changeyooo.github.io"/>
     <link rel="self" href="https://changeyooo.github.io/atom.xml"/>
@@ -16,7 +16,11 @@
         <link href="https://changeyooo.github.io/post/bi-ji-07-or-wu-ti-xiao-san-xiao-guo/">
         </link>
         <updated>2022-03-06T08:41:42.000Z</updated>
-        <content type="html"><![CDATA[<h1 id="一-copytopoints">一、copytopoints</h1>
+        <summary type="html"><![CDATA[<p>houdini学习笔记</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>houdini学习笔记</p>
+<!-- more -->
+<h1 id="一-copytopoints">一、copytopoints</h1>
 <h2 id="1-拷贝-box-到-sphere-顶点">1. 拷贝 box 到 sphere 顶点</h2>
 <h3 id="使用到的节点">使用到的节点：</h3>
 <ol>
@@ -48,7 +52,11 @@ pointwrangle节点中添加代码，控制发射的粒子的大小，在0.005到
         <link href="https://changeyooo.github.io/post/bi-ji-06-or-houdini-copy-jie-dian/">
         </link>
         <updated>2022-03-05T15:54:00.000Z</updated>
-        <content type="html"><![CDATA[<h1 id="一-copy-and-transform">一、copy and transform</h1>
+        <summary type="html"><![CDATA[<p>houdini学习笔记</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>houdini学习笔记</p>
+<!-- more -->
+<h1 id="一-copy-and-transform">一、copy and transform</h1>
 <h1 id="二-copytopoints">二、copytopoints</h1>
 <h2 id="1-拷贝-box-到-sphere-顶点">1. 拷贝 box 到 sphere 顶点</h2>
 <h3 id="使用到的节点">使用到的节点：</h3>
