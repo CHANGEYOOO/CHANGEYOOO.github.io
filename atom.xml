@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://changeyooo.github.io</id>
     <title>Kjoe&apos;s blog</title>
-    <updated>2022-03-06T08:54:56.228Z</updated>
+    <updated>2022-03-25T16:16:56.085Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://changeyooo.github.io"/>
     <link rel="self" href="https://changeyooo.github.io/atom.xml"/>
@@ -10,6 +10,27 @@
     <logo>https://changeyooo.github.io/images/avatar.png</logo>
     <icon>https://changeyooo.github.io/favicon.ico</icon>
     <rights>All rights reserved 2022, Kjoe&apos;s blog</rights>
+    <entry>
+        <title type="html"><![CDATA[笔记#09 | 近期houdini效果图]]></title>
+        <id>https://changeyooo.github.io/post/bi-ji-09-or-jin-qi-houdini-xiao-guo-tu/</id>
+        <link href="https://changeyooo.github.io/post/bi-ji-09-or-jin-qi-houdini-xiao-guo-tu/">
+        </link>
+        <updated>2022-03-25T15:58:42.000Z</updated>
+        <summary type="html"><![CDATA[<p>“偷懒没写详细流程，只记录了最终效果（其实只是随便渲染的图）”</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>“偷懒没写详细流程，只记录了最终效果（其实只是随便渲染的图）”</p>
+<!-- more -->
+<p>近期主要是做了刚体破碎（Dopnetwork）效果👇👇👇</p>
+<figure data-type="image" tabindex="1"><img src="https://s2.loli.net/2022/03/26/MbCuVlinQzqLw1R.jpg" alt="IMG_4244_20220325-下午115006_.JPG" loading="lazy"></figure>
+<figure data-type="image" tabindex="2"><img src="https://s2.loli.net/2022/03/26/SckARHbXjPN5m4s.jpg" alt="IMG_4243_20220325-下午115007_.JPG" loading="lazy"></figure>
+<figure data-type="image" tabindex="3"><img src="https://s2.loli.net/2022/03/26/sw7TZzdtclHAnBY.jpg" alt="IMG_4276_20220325-下午15910_.JPG" loading="lazy"></figure>
+<figure data-type="image" tabindex="4"><img src="https://s2.loli.net/2022/03/26/KGitjBsnwrQcJ21.jpg" alt="IMG_4239_20220325-下午115013_.JPG" loading="lazy"></figure>
+<figure data-type="image" tabindex="5"><img src="https://s2.loli.net/2022/03/26/nfYaW8hqcOB3oUR.jpg" alt="untitled6.jpg" loading="lazy"></figure>
+<figure data-type="image" tabindex="6"><img src="https://s2.loli.net/2022/03/26/jKqCEndaWsXfe6P.png" alt="IMG_4302.PNG" loading="lazy"></figure>
+<figure data-type="image" tabindex="7"><img src="https://s2.loli.net/2022/03/26/fp3RwTQEqHBj5PK.jpg" alt="IMG_3742_20220323-上午90118_.JPG" loading="lazy"></figure>
+<figure data-type="image" tabindex="8"><img src="https://s2.loli.net/2022/03/26/JOoMqAVgrChTZzP.jpg" alt="IMG_3796_20220323-上午90118_.JPG" loading="lazy"></figure>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[笔记#08 | 物体消散效果]]></title>
         <id>https://changeyooo.github.io/post/bi-ji-07-or-wu-ti-xiao-san-xiao-guo/</id>
